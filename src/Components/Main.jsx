@@ -26,7 +26,7 @@ const Main = () => {
     } else {
       let newNote = { id: Date.now(), note: note, isCompleted: false };
 
-      setNotes([...notes, newNote]);
+      setNotes([...notes,newNote]);
     }
     setNote("");
   }
